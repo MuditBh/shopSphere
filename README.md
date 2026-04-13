@@ -18,8 +18,22 @@ The main goal of this project was to understand how real-world backend systems a
 * Clean layered architecture (Controller → Service → Repository)
 
 ---
+## Sample API Endpoints
 
+### Auth
+POST /api/auth/register
+POST /api/auth/login
+
+### Products
+GET /api/products
+POST /api/products (Admin only)
+
+### Cart
+POST /api/cart/add
+GET /api/cart
 ## Tech Stack
+
+---
 
 * Java
 * Spring Boot
