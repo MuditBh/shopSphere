@@ -7,15 +7,14 @@ The main goal of this project was to understand how real-world backend systems a
 
 ---
 
-## Features
+## ✨ Features
 
-* User registration and login with JWT authentication
-* Role-based access control (Admin and User)
-* Product management (Admin operations)
-* Cart management for users
-* Global exception handling
-* MySQL database integration using JPA/Hibernate
-* Clean layered architecture (Controller → Service → Repository)
+- 🔐 JWT Authentication (Login/Register)
+- 👤 Role-Based Access (ADMIN / USER)
+- 🛒 Cart Management (Authenticated users)
+- 📦 Product Management (Admin only)
+- 🌐 Public Product Browsing
+- 🔒 Secure Password Storage (BCrypt)
 
 ---
 ## Sample API Endpoints
